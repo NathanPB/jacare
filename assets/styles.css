@@ -2,39 +2,25 @@ html, body {
   height: 100vh;
 }
 
+#jacare-container > div:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#jacare-container > div:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+
 .jacare-part {
-  height: 700px;
+  background: #38ff6a;  
+}
+
+.jacare-part > img{
+  height: 20vh;
 }
 
 .facing-right {
   transform: scaleX(-1);
 }
-
-.ja {
-  height: 150px;
-  width: auto;
-}
-
-.ca {
-  height: 150px;
-  width: auto;
-}
-
-.re {
-  height: 150px;
-  width: auto;
-}
-
-/*
-.ja {
-  width: calc(46.44% - 30px);
-}
-
-.ca {
-  width: calc(26.23% - 30px);
-}
-
-.re {
-  width: calc(27.33% - 30px);
-}
-*/

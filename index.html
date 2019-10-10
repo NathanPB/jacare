@@ -6,16 +6,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
-    <div class="container-fluid h-100">
-        <div id="jacare-container">
+<body onload="render(randomize(currentJacare), randomizableSlots)">
+    <div class="container-fluid h-100 pt-2">
+        <h1 class="text-center">Assembly your Jacaré</h1>
+        <div id="jacare-container" class="d-flex justify-content-center">
             
         </div>
-    </div>
+        <h2 id="jacare-name" class="text-capitalize text-center"></h2>
+        <div class="d-flex justify-content-center">
+            <div class="btn btn-success" onclick="render(randomize(currentJacare, ...randomizableSlots), randomizableSlots)">Randomize</div>
+        </div>
+     </div>
 </body>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="assets/jacare.js"></script>
+<script src="assets/render.js"></script>
 </html>
