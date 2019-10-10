@@ -1,0 +1,40 @@
+html, body {
+  height: 100vh;
+}
+
+.jacare-part {
+  height: 700px;
+}
+
+.facing-right {
+  transform: scaleX(-1);
+}
+
+.ja {
+  height: 150px;
+  width: auto;
+}
+
+.ca {
+  height: 150px;
+  width: auto;
+}
+
+.re {
+  height: 150px;
+  width: auto;
+}
+
+/*
+.ja {
+  width: calc(46.44% - 30px);
+}
+
+.ca {
+  width: calc(26.23% - 30px);
+}
+
+.re {
+  width: calc(27.33% - 30px);
+}
+*/
